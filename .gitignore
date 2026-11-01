@@ -1,0 +1,35 @@
+# Segredos e Credenciais
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+
+# Dados Locais & Medallion Lakehouse
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.wal
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/gold/*
+!data/gold/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor e Sistema Operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
