@@ -23,6 +23,7 @@ Cada documento espelha fielmente a respectiva issue do Jira Cloud no projeto **`
 | Chave | Status | Precedência / Vínculo | Arquivo Canônico | Resumo |
 |---|---|---|---|---|
 | **GAS-6** | Feito | **Fundação do Projeto** | [`tasks/GAS-6_setup-repositorio-uv-duckdb.md`](tasks/GAS-6_setup-repositorio-uv-duckdb.md) | Setup do Repositório gas-analytics com uv, DuckDB e PyProject |
+| **GAS-17** | Feito | **Governança Agêntica** | [`tasks/GAS-17_estruturacao-catalogo-prompts-governanca.md`](tasks/GAS-17_estruturacao-catalogo-prompts-governanca.md) | Estruturação do Catálogo de Prompts Canônico e Governança Agêntica (Padrão Tá na Lista) |
 | **GAS-7** | Backlog | Depende da GAS-6 | [`tasks/GAS-7_extrator-series-historicas-anp.md`](tasks/GAS-7_extrator-series-historicas-anp.md) | Extrator de Séries Históricas da ANP (Gasolina C e Diesel S10) |
 | **GAS-8** | Backlog | Depende da GAS-6 | [`tasks/GAS-8_conector-series-macro-bacen-yahoo.md`](tasks/GAS-8_conector-series-macro-bacen-yahoo.md) | Conector de Séries Macroeconômicas (Bacen SGS, Câmbio USD/BRL e Brent/WTI) |
 | **GAS-9** | Backlog | Depende de GAS-7 e GAS-8 | [`tasks/GAS-9_motor-alinhamento-temporal-janelas-eleitorais.md`](tasks/GAS-9_motor-alinhamento-temporal-janelas-eleitorais.md) | Motor de Alinhamento Temporal: Marcação de Janelas Pré e Pós-Eleitorais |
